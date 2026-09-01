@@ -24,8 +24,16 @@ public class Customer {
 		long id = sc.nextLong();
 		customerId(id);
 		
+		System.out.println("PLease give your gender");
+		char c = sc.next().charAt(0);
+		getgenderinfo(c);
 		System.out.println("Main method ended");
 	}
+	
+	static void getgenderinfo(char c) {
+		System.out.println(c);
+	}
+	
 	static void getCustomerName(String name) {
 		System.out.println("Customer name is : " +name);
 	}
