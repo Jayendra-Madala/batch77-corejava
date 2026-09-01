@@ -20,7 +20,7 @@ public class Customer {
 		int age = sc.nextInt();
 		getCustomerAge(age);
 		
-		System.out.println("Enter your Age :");
+		System.out.println("Enter your Id :");
 		long id = sc.nextLong();
 		customerId(id);
 		
