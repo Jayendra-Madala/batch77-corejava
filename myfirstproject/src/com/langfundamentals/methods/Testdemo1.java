@@ -1,5 +1,10 @@
 package com.langfundamentals.methods;
 // Random methods
+
+interface In1{
+	public abstract	void method1();
+}
+
 class Employee1 {
 	int age;
 	float height; 
