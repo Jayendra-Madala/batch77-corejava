@@ -13,6 +13,8 @@ public class Movie {
 		System.out.println("NO arg constructor called");
 	}
 	
+	
+	
 	public Movie(String director , String producer) {
 		this.director = director;
 		this.producer = producer;
@@ -22,6 +24,15 @@ public class Movie {
 		this.hero = hero;
 		this.director = m1.director;
 		this.producer = m1.producer;
+	}
+	
+	public Movie(Movie m2 , String heroine , String nameOfMovie , double budget) {
+		this.hero = m2.hero;
+		this.heroine = heroine ;
+		this.producer = m2.producer;
+		this.director = m2.director;
+		this.budget = budget;
+		this.nameOfMovie = nameOfMovie;
 	}
 	public static void main(String[] args) {
 		System.out.println("Main method started");
@@ -34,6 +45,9 @@ public class Movie {
 		
 		Movie m2 = new Movie(m1,"Mahesh Babu");
 		m2.movieInfo();
+		
+		Movie m3 = new Movie(m2 , "Priyanka Chopra" , "Varanasi" , 5000000000.0);
+		m3.movieInfo();
 	}
 	
 	void movieInfo() {
