@@ -11,6 +11,6 @@ public class TestMainDemo1 {
 	for(String a : args) {
 		System.out.println(a);
 	 }
-  }
+}
 
 }
