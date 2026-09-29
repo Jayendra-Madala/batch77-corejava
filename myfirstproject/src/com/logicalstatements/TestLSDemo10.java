@@ -159,7 +159,7 @@ public class TestLSDemo10 {
             }
             }
 
-            // THIS WAS MISSING IN YOUR CODE
+            
             System.out.println(
                     "\nDo you want to continue with categories? Click Y or N:"
             );
