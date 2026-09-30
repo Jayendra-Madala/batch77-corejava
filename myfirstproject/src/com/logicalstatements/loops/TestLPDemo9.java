@@ -18,12 +18,15 @@ public class TestLPDemo9 {
 	static int sumOfDigits(int n){
 		int sum = 0;
 		int rem ;
+		int count = 0;
 		while(n > 0) {
 			rem = n % 10;
 			n = n / 10;
 			sum = sum + rem;
-			
+			count++;
 		}
+		
+		System.out.println("Digits counts is : " + count);
 		return sum;
 	}
 
