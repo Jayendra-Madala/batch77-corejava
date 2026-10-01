@@ -28,7 +28,7 @@ public class TestLPDemo11 {
 		int rem = 0;
 		int sumP = 0;
 		int temp = n;
-		int n1 = n;
+		
 		int count = 0;
 
 		// Counting number of digits
