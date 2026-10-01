@@ -18,7 +18,9 @@ public class TestOPDemo8 {
 		int max1 = (x > y)?((x>z)?x:y):((y > z)?y:z);
 		System.out.println("Max is : " + max1);
 				
-				
+		int age = 21;
+		String eligible = (age > 18)?"Yes":"No";
+		System.out.println("The person is eligible to vote" + eligible);
 				
 		
 		System.out.println("Main method ended");
