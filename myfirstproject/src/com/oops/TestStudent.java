@@ -21,5 +21,6 @@ public class TestStudent {
 		System.out.println(s1.address.city);
 		System.out.println("-------------------------");
 		
+		
 	}
 }
