@@ -1,7 +1,7 @@
 package com.oops.Loanapp;
 
 import java.util.Scanner;
-
+//Parant / Super / Base class
 public class Loan {
 	static Scanner sc = new Scanner(System.in);	
 	public static void main(String args[]) {
