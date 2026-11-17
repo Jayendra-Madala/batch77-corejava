@@ -1,7 +1,5 @@
 package com.oops.Loanapp;
 
-import java.io.IOException;
-
 class Animal{
 	public static void main(String args[]) {
 		
