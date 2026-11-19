@@ -11,7 +11,7 @@ public class TestPolyDemo5 {
 
 		System.out.println("Area of Rectangle is : " + findArea(3.3,4.6));
 		
-		System.out.println("Area of Circle is : " + findArea(3.3));
+		System.out.println("Area of Circle is : " + findArea(3.3f));
 		
 		
 		
