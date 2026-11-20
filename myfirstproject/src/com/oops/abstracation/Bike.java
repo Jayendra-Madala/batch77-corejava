@@ -1,10 +1,35 @@
 package com.oops.abstracation;
 
-public class Bike {
+public class Bike extends Car{
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+	}
 
+	
+
+	@Override
+	public void getCurrentLocation() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void calculateDistance(String source, String destination) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void findNearbyPlaces(String location) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void estimateArraivalTime(int distance) {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
