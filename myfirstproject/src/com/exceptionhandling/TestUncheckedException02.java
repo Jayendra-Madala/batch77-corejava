@@ -14,7 +14,7 @@ public class TestUncheckedException02 {
 			System.out.println("Good day");
 			System.out.println("Enter your number");
 		}
-		catch(Exception e) {
+		catch(Throwable e) {
 			System.out.println("In catch");
 		}
 		
