@@ -7,7 +7,7 @@ public class TestTryCatchFinallyDemo1 {
 		
 		try {
 			System.out.println("In try");
-			System.out.println(10/0);
+			System.out.println(10/0);;
 		}
 		finally {
 			System.out.println("Finally !!");
