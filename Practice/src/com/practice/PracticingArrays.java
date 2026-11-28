@@ -8,26 +8,24 @@ public class PracticingArrays {
 		System.out.println("Enter the size of an array : ");
 		int n = sc.nextInt();
 		int[] arr = new int[n];
-		System.out.println("Enter the elements of an array : ");
-		
-		for(int i = 0 ; i <n ; i++) {
-			
-			 arr[i] = sc.nextInt();
+
+		System.out.println("Enter the elements of array : ");
+		for(int i = 0 ; i < arr.length ; i++) {
+			arr[i] = sc.nextInt();
 		}
 		int index = 0;
-		for(int i = 0 ; i < n ; i++) {
+		for(int i = 0 ; i < arr.length ; i++) {
 			if(arr[i] != 0) {
 				arr[index] = arr[i];
 				index++;
-
 			}
-		}
-		
-		for(int i = index ; i < n ; i++) {
+			}
+		for(int i = arr[index] ; i < arr.length ; i++) {
 			arr[i] = 0;
 		}
-		for(int i = 0 ; i < n ; i++) {
-			System.out.println(arr[i] + " ");
+		
+		for(int i = 0 ; i < arr.length; i++) {
+			System.out.println(arr[i]);
 		}
 	}
 
